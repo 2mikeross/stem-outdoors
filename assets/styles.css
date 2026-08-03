@@ -138,9 +138,9 @@ header.site-nav{
 .divider{position:relative;height:300px;overflow:hidden;background:var(--charcoal);}
 .divider-photo{
   position:absolute;inset:-2%;
-  background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Rocky_mountains_banner.jpg');
-  background-size:cover;background-position:center 60%;
-  filter:grayscale(0.5) sepia(0.12) contrast(1.08) brightness(0.82);
+  background-image:url('CanyonSunset.jpg');
+  background-size:cover;background-position:center 55%;
+  filter:contrast(1.05) brightness(0.9);
 }
 .divider::before{
   content:"";position:absolute;top:0;left:0;right:0;height:70px;z-index:2;
@@ -380,8 +380,8 @@ footer{
   background:var(--charcoal);color:var(--cream-2);
   padding:50px 28px 26px;text-align:center;
 }
-footer img{height:46px;margin:0 auto 16px;}
+footer img{height:55px;margin:0 auto 16px;}
 footer .foot-links{display:flex;justify-content:center;gap:22px;margin-bottom:22px;flex-wrap:wrap;}
-footer .foot-links a{font-size:0.75rem;color:var(--cream-2);}
+footer .foot-links a{font-size:0.9rem;color:var(--cream-2);}
 footer .foot-links a:hover{color:var(--rust-light);}
 footer .fine{font-family:'Source Serif 4',serif;text-transform:none;letter-spacing:normal;font-size:0.8rem;color:var(--stone);}
