@@ -139,8 +139,8 @@ header.site-nav{
 .divider-photo{
   position:absolute;inset:-2%;
   background-image:url('CanyonSunset.jpg');
-  background-size:cover;background-position:center 15%;
-  filter:contrast(1.05) brightness(0.9);
+  background-size:cover;background-position:center 35%;
+  filter:contrast(1.03) brightness(1.02);
 }
 .divider::before{
   content:"";position:absolute;top:0;left:0;right:0;height:70px;z-index:2;
