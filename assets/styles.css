@@ -136,11 +136,11 @@ header.site-nav{
 }
 
 /* mountain photo divider */
-.divider{position:relative;height:380px;overflow:hidden;background:var(--charcoal);}
+.divider{position:relative;height:460px;overflow:hidden;background:var(--charcoal);}
 .divider-photo{
   position:absolute;inset:-2%;
   background-image:url('CanyonSunset.jpg');
-  background-size:cover;background-position:center 45%;
+  background-size:cover;background-position:center 25%;
   filter:contrast(1.03) brightness(1.02);
 }
 .divider::before{
@@ -159,7 +159,7 @@ header.site-nav{
 }
 .divider-credit:hover{color:var(--rust-light);}
 @media (max-width:700px){
-  .divider{height:240px;}
+  .divider{height:300px;}
 }
 
 /* ABOUT / BIO */
