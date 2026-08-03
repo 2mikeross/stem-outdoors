@@ -38,7 +38,7 @@ header.site-nav{
   padding:14px 28px;max-width:1120px;margin:0 auto;
 }
 .nav .brand{display:flex;align-items:center;gap:12px;}
-.nav .brand img{height:48px;width:auto;}
+.nav .brand img{height:53px;width:auto;}
 .nav .brand span{color:var(--cream);font-size:0.95rem;font-weight:600;}
 .nav ul{display:flex;gap:26px;list-style:none;}
 .nav ul a{
@@ -82,7 +82,7 @@ header.site-nav{
   pointer-events:none;
 }
 .hero-inner{position:relative;z-index:2;max-width:640px;margin:0 auto;}
-.hero-inner img.logo{width:210px;margin:0 auto 26px;}
+.hero-inner img.logo{width:231px;margin:0 auto 26px;}
 .hero-inner .kicker{
   color:var(--rust-light);font-size:0.8rem;font-weight:600;
   letter-spacing:0.28em;margin-bottom:14px;
@@ -136,7 +136,7 @@ header.site-nav{
 }
 
 /* mountain photo divider */
-.divider{position:relative;height:300px;overflow:hidden;background:var(--charcoal);}
+.divider{position:relative;height:380px;overflow:hidden;background:var(--charcoal);}
 .divider-photo{
   position:absolute;inset:-2%;
   background-image:url('CanyonSunset.jpg');
@@ -159,7 +159,7 @@ header.site-nav{
 }
 .divider-credit:hover{color:var(--rust-light);}
 @media (max-width:700px){
-  .divider{height:190px;}
+  .divider{height:240px;}
 }
 
 /* ABOUT / BIO */
@@ -377,7 +377,7 @@ footer{
   background:var(--charcoal);color:var(--cream-2);
   padding:50px 28px 26px;text-align:center;
 }
-footer img{height:55px;margin:0 auto 16px;}
+footer img{height:61px;margin:0 auto 16px;}
 footer .foot-links{display:flex;justify-content:center;gap:22px;margin-bottom:22px;flex-wrap:wrap;}
 footer .foot-links a{font-size:0.9rem;color:var(--cream-2);}
 footer .foot-links a:hover{color:var(--rust-light);}
