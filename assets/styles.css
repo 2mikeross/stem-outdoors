@@ -171,11 +171,8 @@ header.site-nav{
   display:grid;grid-template-columns:220px 1fr;gap:56px;align-items:start;
 }
 .portrait{
-  aspect-ratio:1/1;
-  border:6px solid var(--charcoal);
-  display:flex;align-items:center;justify-content:center;
-  color:var(--cream-2);font-size:0.75rem;text-align:center;
-  width:100%;object-fit:cover;
+  border:9px solid var(--charcoal);
+  width:100%;height:auto;display:block;
 }
 .about .eyebrow{
   color:var(--rust);font-size:0.8rem;font-weight:600;
